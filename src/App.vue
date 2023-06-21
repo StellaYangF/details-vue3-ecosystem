@@ -13,15 +13,12 @@ export default defineComponent({
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-
-import { useCounterStore } from './stores/counter';
-const counter = useCounterStore()
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld :msg="counter.count" />
+      <HelloWorld msg="vue ecosystem" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
