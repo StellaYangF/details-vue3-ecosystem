@@ -6,7 +6,7 @@ And this project is based on vite tool, with fast building.
 
 ### Packages
 
-- [vue-router](https://github.com/StellaYangF/details-vue-ecosystems/blob/main/docs/router.md)
+- [vue-router](https://github.com/StellaYangF/details-vue3-ecosystems/blob/main/docs/router.md)
 - pinia
 - ...
 
